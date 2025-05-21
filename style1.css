@@ -1,0 +1,95 @@
+
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+header {
+    height: 90px;
+    background-color: #416b5a;
+}
+
+.navigation {
+    padding: 25px 25px 40px 25px;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+.nav-list {
+	margin-left: 20px;
+            margin-top: 5px;
+	padding: 0 20px;
+	width: 70%;
+	display: flex;
+	align-items:right;
+	gap: 20px;
+	list-style: none;
+	text-align: right;
+}
+.nav-list li {
+	list-style: none;
+	padding: 26px 30px;
+	padding: 10px;
+	float: right;
+}
+
+.nav-list li a {
+	text-decoration: none;
+	color: rgb(248, 248, 255);
+}
+
+.nav-list li a:hover {
+	color: rgb(138, 44, 102);
+}
+
+.btn {
+	padding: 8px 20px;
+	margin: 7px 0;
+	border: 2px solid white;
+	border-radius: 8px;
+	background: none;
+	color: white;
+	cursor: pointer;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+    /* justify-content: center; */
+}
+
+.content {
+    float: right;
+}
+
+
+.banner {
+    background-image: url(quiz.png);
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+   
+        height: 100px;
+        background-color: #416b5a;
+    
+}
+.text-footer {
+	text-align: center;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
